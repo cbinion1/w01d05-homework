@@ -97,7 +97,18 @@ for (i = 0; i <= 100; i+=2){
 //Give Me Five:
 
 
+for (i = 0; i <= 100; i++){
+  if ([i] % 5 === 0);{
+  console.log(`"I found a"${[i]}"High Five!"`);
+  } if ([i] % 3 == 0);{
+  console.log(`"I found a"${[i]}"Three's a crowd!`);
+  } else {
+   return [i];
+   }
+}
 
+
+//
 
 
 
