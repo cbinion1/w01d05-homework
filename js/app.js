@@ -86,6 +86,17 @@ for (i = 40; i <= 1000; i += 2){
 
 
 
+//Let's Get Even:
+
+for (i = 0; i <= 100; i+=2){
+  console.log(`${[i]}"is an even number"`);
+}
+
+
+
+//Give Me Five:
+
+
 
 
 
