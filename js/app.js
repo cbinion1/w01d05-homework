@@ -72,6 +72,21 @@ if (driverAge >= 16){
 
 //Just Loop It:
 
+for (i = 0; i <= 100; i++){
+  console.log(i);
+}
+
+for (i = 40; i <= 1000; i++){
+  console.log(i);
+}
+
+for (i = 40; i <= 1000; i += 2){
+  console.log(i);
+}
+
+
+
+
 
 
 
