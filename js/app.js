@@ -151,7 +151,126 @@ randomThings[2] = "World";
 console.log(randomThings);
 
 
-////
+////We've Got Class:
+
+
+const ourClass = ["Gizmo", "Zoom", "Github", "Slack"];
+
+ourClass[2] = "Octocat";
+
+ourClass.push("Cloud City");
+
+console.log(ourClass);
+
+
+////Mix It Up:
+
+const myArray = [5 ,10 ,500, 20];
+
+myArray.push("Egon");
+
+console.log(myArray);
+
+myArray.pop();
+
+console.log(myArray);
+
+myArray.unshift("Bob Marley");
+
+console.log(myArray);
+
+myArray.shift();
+
+console.log(myArray);
+
+myArray.reverse();
+
+console.log(myArray);
+
+
+////Biggie Smalls:
+
+let number  = 15;
+
+if (number < 100){
+  console.log("Little Number");
+} if (number >= 100)
+  console.log("Big Number");
+
+
+////Monkey In The Middle:
+
+let numba1 = 7;
+
+if (numba1 <= 5){
+  console.log("Little number")
+} else if (numba1 >= 10){
+  console.log("Big number")
+} else {
+  console.log("Monkey")
+}
+
+
+////What's In Your Closet?
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!");
+
+let kristynShoe = kristynsCloset.shift();
+
+console.log(kristynShoe);
+
+kristynsCloset.splice(5,0, "raybans");
+
+console.log(kristynsCloset);
+
+kristynsCloset[4] = "stained yellow hat";
+
+console.log(kristynsCloset);
+
+console.log(thomsCloset[0][0]);
+
+console.log(thomsCloset[1][1]);
+
+console.log(thomsCloset[2][0]);
+
+console.log("Thom is looking fierce in his " + thomsCloset[0][3] + " and " + thomsCloset[1][0] + " and " + thomsCloset[2][1]);
+
+
+
+
+//Functions:
+
 
 
 
