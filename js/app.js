@@ -108,7 +108,56 @@ for (i = 0; i <= 100; i++){
 }
 
 
-//
+//Savings Account:
+
+
+
+
+
+
+
+
+
+
+
+//Multiples of 3 and 5:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// Easy Does It:
+
+Let quotes = ["We're gonna need and bigger boat", "Where we're going, we don't need roads...", "History is'a made at night!  Character is'a what you are in the dark!"]
+
+
+
+////Random:
+
+
+const randomThings = [1, 10, "Hello", true];
+
+randomThings[2] = "World";
+
+console.log(randomThings);
+
+
+////
+
+
+
+
+
+
 
 
 
