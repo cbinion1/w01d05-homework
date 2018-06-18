@@ -359,6 +359,16 @@ const isAVowel = () => {
 console.log(isAVowel);
 
 
+////4.
+
+const getTwoLengths = (str1, str2) => {
+  let arr1 = str1.split("");
+  let arr2 = str2.split("");
+  for (i = 0; i <= str1.length; i++);
+  for (i = 0; i <= str2.length; i++); 
+}
+
+
 
 
 
