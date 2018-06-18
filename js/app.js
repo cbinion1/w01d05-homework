@@ -271,6 +271,50 @@ console.log("Thom is looking fierce in his " + thomsCloset[0][3] + " and " + tho
 
 //Functions:
 
+///Print Greeting:
+
+const printGreeting = (name) => {
+  console.log(`"Hello there ${name}`);
+   
+}
+
+printGreeting("Slimer");
+
+
+////Reverse Word Order:
+
+
+const reverseWordOrder = () => {
+  
+  let mobyDick = "Ishmael me Call";
+  
+  let splitsville = mobyDick.split(" ");
+  
+  let flipThatBitch = splitsville.reverse("");
+  
+  let putItBackTogether = flipThatBitch.join("");
+}
+
+console.log(reverseWordOrder);
+
+
+////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
