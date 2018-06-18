@@ -298,7 +298,39 @@ const reverseWordOrder = () => {
 console.log(reverseWordOrder);
 
 
-////
+////Calculate:
+
+const calculate = (num1, num2, operation) => {
+  if (calculate == "add"){
+    (num1 + num2);
+  } else if (calculate == "sub"){
+    (num1 - num2);
+  } else if (calculate == "exp"){
+    (num1 ** num2);
+    else if (calculate == "div"){
+      (num1 / num2);
+  } else if (calculate == "mul"){
+    (num1 * num2);
+  } else console.log("Whimmy wham wham whozzle!")
+             }
+  
+}
+
+console.log(calculate (4,3, add));
+
+
+////1.
+
+const printCool = (name) => {
+  console.log(`${name} "is cool!"`);
+   
+}
+
+printCool("The Jabberwockey");
+
+
+////2.
+
 
 
 
