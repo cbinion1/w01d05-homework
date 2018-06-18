@@ -340,6 +340,32 @@ printCool("The Jabberwockey");
 
 
 
+////3.
+
+const isAVowel = () => {
+   
+  let yippiKyYay = "abcdefghijklmnopqrstuvwxyz";
+  
+  let splits = yippiKyYay.split(" ");
+  
+  for (i =0; i <= yippiKyYay.length; i++);
+  
+  if ([i] == "a", "e", "i", "o", "u"){
+    console.log([i] + " is a vowel.");
+  } else return console.log("Is a consonant");
+
+}
+
+console.log(isAVowel);
+
+
+
+
+
+
+
+
+
 
 
 
